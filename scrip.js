@@ -12,3 +12,11 @@ function login() {
       alert("Correo electrónico o contraseña incorrectos. Por favor, inténtelo de nuevo.");
     }
   }
+
+
+const registerLink = document.getElementById("register-link");
+
+registerLink.addEventListener("click", (e) => {
+	e.preventDefault();
+	window.location.href = "register.html";
+});
